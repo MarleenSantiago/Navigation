@@ -15,6 +15,7 @@ class ViewControllerAmarillo: UIViewController {
         super.viewDidLoad()
 
         if let tituloFinal = titulo {
+            
             self.title = tituloFinal
         }
     }
